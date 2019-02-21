@@ -41,3 +41,21 @@ print(gradestuple[2])
 print(sum(gradestuple[0])/3,sum(gradestuple[1])/3,sum(gradestuple[2])/3)
 tuple3=((94,90,96),)
 print(gradestuple+tuple3)
+
+
+
+gradesDict={'Chinese':[5,14,7],'English':[23,36,28],'Math':[88,80,92]}
+print(gradesDict['Math'])
+print(gradesDict.items())
+#print(sum(gradesDict.values('Chinese'))/3)
+gradesDict.update({'Science':[94,90,96]})
+print(gradesDict)
+
+#--------------------
+allstudent = {'John', 'Eva', 'Jill' , 'Eric' , 'Andy' , 'Albert' , 'Polina' , 'Kristin' , 'Angela'}
+danceclub = {'John','Eva','Jill','Eric','Andy'}
+guitarclub = {'Andy','Albert','Polina','Kristin','Angela'}
+
+print(danceclub & guitarclub)
+print(guitarclub - danceclub)
+print(allstudent - (danceclub | guitarclub))
