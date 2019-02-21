@@ -32,3 +32,12 @@ print(grades[0])
 print(sum(grades[0])/len(grades[0]) ,sum(grades[1])/len(grades[1]),sum(grades[2])/len(grades[2]))
 grades.append([94,90,96])
 print(grades)
+tuple1=(1,1,1,2,3,66,9,45,88,100)
+print(tuple1.index(2))
+
+gradestuple=(5,14,7),(23,36,28),(88,80,92)
+
+print(gradestuple[2])
+print(sum(gradestuple[0])/3,sum(gradestuple[1])/3,sum(gradestuple[2])/3)
+tuple3=((94,90,96),)
+print(gradestuple+tuple3)
